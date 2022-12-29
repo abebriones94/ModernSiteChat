@@ -1,0 +1,191 @@
+/* Use a modern sans-serif font */
+body {
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+/* Set a consistent font size and line height */
+body {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Use a clean, white background color */
+body {
+  background-color: #becefe; /* Set the background color to a blue shade */
+}
+
+.footer {
+
+  color: rgb(62, 62, 62);
+  text-align: center;
+  border-radius: 3px;
+  position: absolute;
+  bottom: 0; /* Set the bottom position of the footer */
+  width: 100%;
+}
+
+/* Use a consistent, neutral color palette */
+a,
+button {
+  color: #333;
+}
+
+/* Add some subtle box shadows to elements */
+button {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Use clean, modern typography styles */
+h1,
+h2,
+h3 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  text-align: center;
+  text-align: center;
+  margin: auto;
+  text-shadow: 0 0 10px #fff;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+.welcome {
+  text-shadow: 0 0 10px #ffff00;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+/* Use clean, minimalistic form styles */
+form {
+  margin-bottom: 2rem;
+  width: 50%;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  padding: 8px;
+  width: 98%;
+}
+
+button[type="submit"] {
+  background-color: #333;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 12px;
+  width: 40%;
+}
+
+/* Style the navigation links */
+nav a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+nav a:hover,
+nav a:active {
+  background-color: #eee;
+}
+
+/* Add some hover effects to buttons */
+button:hover {
+  background-color: #555;
+}
+
+nav {
+  float: right;
+  margin-top: 10px; /* Add a top margin to the nav bar */
+  background-color: rgb(212, 73, 73);
+  border-radius: 3px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 3px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover,
+nav a:active {
+  color: rgb(136, 47, 47);
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.pulse {
+  animation: pulse 2s infinite;
+}
+
+header {
+  background: linear-gradient(
+    to right,
+    #ff8177,
+    #ff867a,
+    #ff8c7f,
+    #f99185,
+    #cf556c,
+    #b12a5b
+  );
+  background-size: 600% 600%;
+  animation: gradient 15s ease infinite;
+  padding-top: 20px;
+  border-radius: 10px;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.float-right {
+  float: right;
+  width: 330px;
+  height: 200px;
+  margin-right: 50px;
+  border-radius: 3px;
+  filter: drop-shadow(0 0 10px #004cff) brightness(150%);
+}
